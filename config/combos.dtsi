@@ -42,7 +42,7 @@ ZMK_MACRO(copy_line,
              , <&macro_release &kp LSHFT>
              , <&macro_tap     &kp LC(INS)>;
 )
-ZMK_COMBO(copyln, &copy_line,   RT2 RT3,         NAV    , COMBO_TERM_FAST, COMBO_IDLE_FAST)
+ZMK_COMBO(copyln, &copy_line,   RT1 RT3,         NAV    , COMBO_TERM_FAST, COMBO_IDLE_FAST)
 
 // TODO: could we do copy word as well?
 
